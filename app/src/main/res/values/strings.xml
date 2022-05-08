@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Dragon okmányiroda</string>
+    <string name="username">Név</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Login</string>
+    <string name="register">Regisztráció</string>
+    <string name="pwd_again">Jelszó újra</string>
+    <string name="cancel">Mégsem</string>
+    <string name="email">E-mail cím</string>
+    <string name="phone_number">Telefonszám</string>
+    <string name="last_name">Vezetéknév</string>
+    <string name="yes">Rendelkezem magyarországi állandó lakcímmel.</string>
+    <string name="no">Nem rendelkezem magyarországi állandó lakcímmel.</string>
+    <string name="choose">Milyen igazolványt szeretne?</string>
+    <string name="first">Személyi igazolvány</string>
+    <string name="second">Lakcímigazolvány</string>
+    <string name="third">Jogosítvány</string>
+    <string name="fourth">Útlevél</string>
+    <string name="guest">VENDÉG</string>
+    <string name="dear_user">Kedves felhasználó!</string>
+    <string name="sentenceNo1">Felhívom a figyelmét, hogy ez az almazás szigorúan bizalmas és illegális információkat tartalmaz, ezért regisztráció nélkül nem tekinthető meg a tartalma!</string>
+    <string name="sentenceNo2">Amennyiben szeretné használni a szolgáltatásainkat, kérem kattintson a VISSZA gombra és regisztráljon vagy ha ezt már megtette, akkor jelentkezzen be!</string>
+    <string name="fifth">Diákigazolvány</string>
+    <string name="next">Tovább</string>
+    <string name="prev">Vissza</string>
+    <string name="pick_a_day">Válasszon egy napot!</string>
+    <string name="apply">Foglalás</string>
+    <string name="take_an_appointment">Időpontfoglalás</string>
+    <string name="change">Módosítás</string>
+    <string name="date">Időpont</string>
+    <string name="paper_type">Igazolvány típusa</string>
+
+
+    <string-array name="appo_emailcim">
+        <item>Smart Phone</item>
+        <item>Tablet</item>
+        <item>Gaming PC</item>
+        <item>Oled TV</item>
+        <item>Kerékpár</item>
+        <item>Lego</item>
+        <item>Jelmez</item>
+        <item>Sport eszközök</item>
+        <item>Konyhai eszközök</item>
+        <item>Bútor</item>
+    </string-array>
+
+    <string-array name="appo_igazolvany_tipus">
+        <item>Ez egy okos telefon!</item>
+        <item>Ez egy tablet!</item>
+        <item>Ez egy gamer pc!</item>
+        <item>Ez egy OLED TV!</item>
+        <item>Ez egy kerékpár!</item>
+        <item>Ez egy lego!</item>
+        <item>Ez egy jelmez!</item>
+        <item>Ezek sport eszközök!</item>
+        <item>Ezek konyhai eszküzök!</item>
+        <item>Ez egy bútor!</item>
+    </string-array>
+
+
+    <array name="appo_idopont">
+        <item>100 Dv</item>
+        <item>150 Dv</item>
+        <item>500 Dv</item>
+        <item>300 Dv</item>
+        <item>180 Dv</item>
+        <item>70 Dv</item>
+        <item>20 Dv</item>
+        <item>30 Dv</item>
+        <item>15 Dv</item>
+        <item>90 Dv</item>
+    </array>
+</resources>

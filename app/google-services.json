@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "785206784079",
+    "project_id": "e4bumj-okmanyiroda",
+    "storage_bucket": "e4bumj-okmanyiroda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785206784079:android:4f8915b3f9a205adc57a3a",
+        "android_client_info": {
+          "package_name": "com.example.okmanyiroda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785206784079-ttsb9ct5vavlptpokk0r2n85aps6dc56.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.okmanyiroda",
+            "certificate_hash": "74f931d1b8e0e9474297e10cac29cb8547adc39b"
+          }
+        },
+        {
+          "client_id": "785206784079-kink4098adeul2b90na6asda8kc8dn2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6FXbzfXAsPsTsYnBtGv6jNg9Q1JaxNXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785206784079-kink4098adeul2b90na6asda8kc8dn2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@color/halvany_piros">
+
+    <TextView
+        android:id="@+id/textViewRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/register"
+        android:textAlignment="center"
+        android:textColor="@color/blood_500"
+        android:textSize="15sp" />
+
+
+
+    <LinearLayout
+        android:id="@+id/layoutLand1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/textViewRegister"
+        android:layout_marginTop="@dimen/land_margin"
+        >
+
+
+    <EditText
+        android:id="@+id/editTextUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:hint="@string/username"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/editTextMobil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/land_margin"
+        android:ems="8"
+        android:hint="@string/phone_number"
+        android:inputType="phone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutLand2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/layoutLand1"
+        android:layout_marginTop="@dimen/land_margin"
+        >
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/land_margin"
+        android:ems="8"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/land_margin"
+        android:ems="8"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextPwdUjra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/land_margin"
+        android:ems="8"
+        android:hint="@string/pwd_again"
+        android:inputType="textPassword" />
+
+    </LinearLayout>
+    <RadioGroup
+        android:id="@+id/RadioLakcim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/land_margin"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/layoutLand2">
+
+        <RadioButton
+            android:id="@+id/buttonLakcim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yes"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no"/>
+
+
+    </RadioGroup>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/RadioLakcim"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/land_margin"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:onClick="register"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:onClick="cancel"
+            android:layout_marginLeft="@dimen/default_margin"
+
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AppointmentActivity"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/form_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/choose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin"
+                android:text="@string/choose"
+                android:textColor="@color/blood_500"
+                android:textSize="28sp" />
+
+            <RadioGroup
+                android:id="@+id/igazolvanyRadioG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin"
+                android:layout_below="@id/choose"
+
+                >
+
+                <RadioButton
+                    android:id="@+id/szemelyiButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/first"
+                    android:textColor="@color/blood_500"
+                    android:textSize="20sp"
+                    />
+
+                <RadioButton
+                    android:id="@+id/lakcimButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/second"
+                    android:textColor="@color/blood_500"
+                    android:textSize="20sp"
+                    />
+
+                <RadioButton
+                    android:id="@+id/jogsiButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/third"
+                    android:textColor="@color/blood_500"
+                    android:textSize="20sp"
+
+                    />
+
+
+                <RadioButton
+                    android:id="@+id/utlevelButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fourth"
+                    android:textColor="@color/blood_500"
+                    android:textSize="20sp"
+                    />
+
+                <RadioButton
+                    android:id="@+id/diakButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fifth"
+                    android:textColor="@color/blood_500"
+                    android:textSize="20sp"
+                    />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/pickADay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin"
+                android:text="@string/pick_a_day"
+                android:textColor="@color/blood_500"
+                android:textSize="28sp"
+                android:layout_below="@+id/igazolvanyRadioG"
+                />
+
+            <DatePicker
+                android:id="@+id/idopontDatePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/pickADay"
+
+                />
+
+            <TextView
+                android:id="@+id/picktTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin"
+                android:text="Válaszd ki az órát!"
+                android:textColor="@color/blood_500"
+                android:textSize="28sp"
+                android:layout_below="@+id/idopontDatePicker"
+                />
+
+            <TimePicker
+                android:id="@+id/idopontTimePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/picktTime"
+                android:layout_centerHorizontal="true"
+                android:timePickerMode="spinner"
+                />
+
+
+            <Button
+                android:id="@+id/foglalasButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="next"
+                android:text="@string/apply"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/idopontTimePicker"
+
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
